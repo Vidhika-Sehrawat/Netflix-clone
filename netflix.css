@@ -1,0 +1,310 @@
+*{
+    margin : 0;
+    padding : 0;
+    border : border-box;
+}
+
+.head{
+   position : relative;
+    background-image : url("netflix-background.jpg");
+    background-size : cover;
+    height : 80vh;
+    width : 100%;
+    height : 100vh;
+    width : 100vw;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.netflix{
+    display : inline-block;
+    font-size : 50px;
+    color : red;
+    margin-top : 10px;
+    margin-left : 150px;
+    
+    font-weight : 400px;
+}
+.lan{
+    margin-right : 150px;
+}
+#language1{
+color : white;
+background-color : black;
+height : 35px;
+width : 140px;
+border-radius : 3px;
+margin-left : 700px;
+margin-top : 10px;
+}
+
+#sign_in{
+    background-color : red;
+    color : white;
+    height : 35px;
+    width : 80px;
+    border-radius : 4px;
+    margin-right : 130px;
+}
+ 
+.content1{
+   color : white;
+   font-size : 48px;
+   font-weight:900;
+   margin : 100px 0px 0px 220px; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+.content2{
+    color : white;
+    font-size : 24px;
+    margin : 16px 0px 0px 500px; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.content3{
+    color : white;
+    font-size : 20px;
+    margin : 16px 0px 0px 380px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.combo{
+    display : flex;
+    margin : 10px;
+}
+#textbox{
+    
+    height : 30px;
+    width : 300px;
+    padding : 12px 16px 8px 10px;
+    border : 2px solid white;
+    background-color: black;
+    font-size : 20px;
+    margin : 10px 0px 0px 410px;
+}
+
+.combo button{
+    height : 55px;
+    width : 200px;
+     background-color : red;
+    margin : 10px 10px 0px;
+    padding : 5px 140px 10px 0px;
+    font-size : 20px;
+    color : white;
+    border-radius : 5%;  
+}
+.watch{
+    background-color : black;
+    height : 600px;
+    width : 100%;
+     color : white;
+     border-top : 9px solid grey;
+     border-bottom : 9px solid grey;
+    
+}
+.enjoy{
+    font-size : 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    display : inline-block;
+    font-weight: bolder;
+    margin : 150px 0px 0px 170px;
+    
+}
+.watch-content{
+    font-size : 24px;
+    margin : 16px 0px 0px 170px;
+    }
+  .third_page{
+    height : 600px;
+    width : 100%;
+    background-color : black;
+    border-bottom : 9px solid grey;
+    
+  }
+  .download{
+    font-size : 48px;
+    color : white;
+    font-weight : bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-left  : 750px;
+    display: inline-block;
+  }
+  .save{
+    font-size: 24px;
+    color : white;
+    margin-top : 16px;
+    margin-left: 750px;
+  }
+
+.fourth_page{
+    height : 600px;
+    width : 100%;
+    background-color : black;
+    border-bottom : 9px solid grey;
+    display : inline-block;
+}
+.everywhere{
+    color : white;
+    font-size : 48px;
+    font-weight : bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin : 150px 0px 0px 170px;
+}
+.stream{
+    color : white;
+    font-size : 24px;
+    margin-top : 16px;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-left : 170px;
+}
+.fifth_page{
+    height : 600px;
+    width : 100%;
+    background-color : black;
+    display : inline-block;
+    border-bottom : 9px solid grey;
+    
+    
+.kids_img{
+    width : 100px;
+    height : 100px;
+
+
+}
+    
+}
+.kids{
+    color : white;
+    font-size : 48px;
+    font-weight : bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-left  : 750px;
+}
+.children{
+    color : white;
+    font-size : 24px;
+    margin-top : 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top : 16px;
+    margin-left: 750px;
+
+}
+.sixth_page{
+    background-color : black;
+    height : 900px;
+    width : 100%;
+    border-bottom : 9px solid grey;
+}
+.heading{
+    color : white;
+    font-size : 48px;
+    font-weight : bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    display : inline-block;
+   margin-top : 60px;
+   margin-left : 400px;
+
+}
+.what{
+    margin-top : 24px;
+    
+}
+.what :hover{
+background-color : rgb(58, 56, 56);
+}
+.what button{
+    color : white;
+    height : 80px;
+    width : 1200px;
+    background-color : rgb(40, 39, 39);
+    padding : 24px;
+    margin-left : 140px;
+    margin-top : 8px;
+    text-align: left;
+    font-size : 24px;
+}
+.ready{
+    color : white;
+    font-size : 20px;
+    margin-top : 40px;
+    margin-left : 400px;
+
+}
+.email{
+    display : flex;
+}
+#em{
+    color : white;
+    background-color : black;
+    border : 2px solid grey;
+    
+    height : 20px;
+    width : 280px;
+    font-size : 20px;
+    margin-top : 20px;
+    margin-left : 430px;
+    padding : 20px;
+    border-radius : 8px;
+
+}
+.email button {
+    background-color : red;
+    height : 65px;
+    width : 200px;
+    margin-top : 20px;
+    margin-left : 10px;
+    border-radius :8px;
+    
+}
+.ques{
+    height : 380px;
+    width : 100%;
+    background-color : black;
+}
+.call{
+    color : white;
+    display : inline-block;
+    margin-top : 50px;
+    margin-left : 200px;
+
+}
+.foot_panel{
+    color : #DDDDDD;
+    text-decoration : underline;
+    display : flex;
+    justify-content:space-evenly;
+}
+
+ul a{
+    display : block;
+    margin-top : 15px;
+    color : #dddddd;
+
+}
+.foot_panel2{
+    margin-top : 30px;
+}
+#language3{
+    color :#dddddd;
+    height : 30px;
+    width : 100px;
+    border : 2px solid #dddddd;
+    background-color : black;
+    border-radius : 3px;
+    margin-left : 200px;
+    
+}
+.india{
+    color : #dddddd;
+    font-size : 15px;
+    margin-top : 15px;
+    margin-left : 200px;
+}
+
+
